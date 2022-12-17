@@ -1,0 +1,15 @@
+1- Python 
+2- OOP
+3- PostgreSQL
+4- ORM
+5- Django
+6- Authentication & Authorization
+7- Repository pattern and Architecture
+8- API
+9- JWT
+
+10- Design Pattern
+11- Solid Principle
+12- Clean Code
+13- Problem Solving
+14- Business Logic
