@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- get css file from static/css by dynamic jinja code -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css')}}">
+    
+    <!-- if you have a custom css file and you want to apply it (in case of existance): -->
+    <!-- filename can be added by concatenation -->
+    {% if customCSS %}
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/' + customCSS + '.css')}}">
+    {% endif %} 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- your page title should be dynamic, so page_title insrtead into jinja brackets -->
+    <title>{{page_title}}</title>
+</head>
+<body>
+    <!-- this is how to get body of other pages  -->
+
+    {% block body %}
+    {% endblock %}
+
+    {% block head %}
+    {% endblock %}
+</body>
+</html>

@@ -1,0 +1,11 @@
+logger_name = root, time = 20 December 2022, 13:28, level_name = WARNING, message = this is warning message!
+logger_name = root, time = 20 December 2022, 13:28, level_name = ERROR, message = this is error message!
+logger_name = root, time = 20 December 2022, 13:28, level_name = CRITICAL, message = this is critical message!
+logger_name = root, time = 20 December 2022, 13:36:07, level_name = WARNING, message = this is warning message!
+logger_name = root, time = 20 December 2022, 13:36:07, level_name = ERROR, message = this is error message!
+logger_name = root, time = 20 December 2022, 13:36:07, level_name = CRITICAL, message = this is critical message!
+logger_name = instead_of_root, time = 20 December 2022, 13:36:07, level_name = ERROR, message = this is my custom error message for my first logger
+logger_name = root, time = 20 December 2022, 13:36:10, level_name = WARNING, message = this is warning message!
+logger_name = root, time = 20 December 2022, 13:36:10, level_name = ERROR, message = this is error message!
+logger_name = root, time = 20 December 2022, 13:36:10, level_name = CRITICAL, message = this is critical message!
+logger_name = instead_of_root, time = 20 December 2022, 13:36:10, level_name = ERROR, message = this is my custom error message for my first logger

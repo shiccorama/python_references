@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+
+{% block head %}
+<!-- check the right way to assign custom css in base.html -->
+{% endblock %}
+
+{% block body %}
+
+<h1 class="page-head"> {{ page_head }} </h1>
+<p class="page-desc"> {{ page_description }} </p>
+
+{% for skill in skills_list %}
+    <div class="skill-box"> 
+        <div class="skill-name"> {{ skill[0] }} </div>
+        <div class="skill-progress">
+            <span style="width:{{ skill[1] }}%" ></span>
+        </div>
+    </div>
+{% endfor %}
+
+
+
+
+{% endblock %}

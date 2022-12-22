@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-head, .page-desc{
+    text-align: center;
+}
+
+.page-head{
+    font-size:larger;
+    margin: 20px 0 0 0;
+}
+
+.page-desc{
+    font-size: large;
+    border: solid 2px gray;
+    width: 600px;
+    margin: 20px auto 40px auto;
+    
+}
+
